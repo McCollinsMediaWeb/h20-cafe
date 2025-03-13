@@ -3149,12 +3149,19 @@ grid-column-gap: 0px;
 	.post-password-form label input, .post-password-form input[type="submit"]{display:block;
 margin-left:0;margin-top:8px;}
 
- }
+.logo img {
+  width: 100px;
+}
 
+ }
+ .nav-fixed-top .icon-bar,
  .nav-fixed-top .icon-bar::before, 
  .nav-fixed-top .icon-bar::after{
   background-color: #252525;
  }
  .nav-fixed-top .social-media1 li a {
   color: #252525;
+}
+.nav-fixed-top{
+  box-shadow: 0 5px 25px rgba(0,0,0,.17);
 }
