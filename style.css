@@ -233,7 +233,7 @@ a{color:var(--headings-color);}
 p a{color:var(--primary-color);
 	border-bottom: 1px solid var(--primary-color);
 	}
-a:hover, p a:hover{color:var(--primary-color);text-decoration:none;
+a:hover, p a:hover{color:#252525;text-decoration:none;
 border:none;}
 a:active,a:focus{outline: none;
 text-decoration:none;}
@@ -340,9 +340,12 @@ text-transform:uppercase;
 }
 .menu-nav li:first-child{margin-left:0px;}
 
-.menu-nav li a{color:#252525;
+.menu-nav li a{color:#fff;
 padding:24px 0;
 display:block;}
+.nav-fixed-top .menu-nav li a{
+  color: #252525;
+}
 .menu-nav li a:before{position: absolute;
 display: block;
 bottom: 20px;
@@ -1031,9 +1034,9 @@ color: #ffffff;}
 
 /* Parallax Backgrounds */
 
-#home-content-2, #home-content-25, #home-content-33{background-image:url('images/home/parallax-bkg1.jpg');}
-#home-content-4, #home-content-94, #home-content-115{background-image:url('images/home/parallax-2.jpg');}
-#home-content-6, #home-content-27, #home-content-102, #home-content-104{background-image:url('images/home/parallax-3.jpg');}
+#home-content-2, #home-content-25, #home-content-33{background-image:url('images/mainbanner.jpg');}
+#home-content-4, #home-content-94, #home-content-115{background-image:url('images/s1.jpg');}
+#home-content-6, #home-content-27, #home-content-102, #home-content-104{background-image:url('images/tes.jpg');}
 
 #home-content-102{
 	padding-top:81px;
@@ -2109,9 +2112,9 @@ flex:1 1 auto;}
 ************************************/
 
 /* Home Slider */
-.slide-1{background-image:url('images/pages-top/reservation-page.jpg');}
-.slide-2{background-image:url('images/pages-top/slider-2.jpg');}
-.slide-3{background-image:url('images/pages-top/slider-3.jpg');}
+.slide-1{background-image:url('images/mainbanner.jpg');}
+.slide-2{background-image:url('images/mainbanner1.jpg');}
+.slide-3{background-image:url('images/mainbanner.jpg');}
 
 /* Top Pages Image */
 .top-menu-1col, .top-menu-2col, .top-menu-3col, .top-menu-acc, .top-menu-5{background-image:url('images/pages-top/menu-img.jpg');}
@@ -2258,7 +2261,7 @@ display:inline-block;
 letter-spacing: 0.15em;
 } 
 
-.current-page, .page-numbers:hover, .nav-page a:hover, .page-links a:hover, .post-password-form input[type="submit"]:hover{color:var(--primary-color);
+.current-page, .page-numbers:hover, .nav-page a:hover, .page-links a:hover, .post-password-form input[type="submit"]:hover{color:#252525;
 background:none !important;
 border: 2px solid;}
 
