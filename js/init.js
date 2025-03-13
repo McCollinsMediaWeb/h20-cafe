@@ -163,7 +163,7 @@ $(this).toggleClass('active').next().slideDown();
          }
      });
 
-     $("a[href^='#']").on("click", function (e) {
+     $(".menu-item a , .btn-header a , a.view-more, .slider-btn").on("click", function (e) {
         e.preventDefault();
 
         var target = $(this.getAttribute("href"));

@@ -341,6 +341,7 @@ text-transform:uppercase;
 .menu-nav li:first-child{margin-left:0px;}
 
 .menu-nav li a{color:#fff;
+  font-weight: 600;
 padding:24px 0;
 display:block;}
 .nav-fixed-top .menu-nav li a{
