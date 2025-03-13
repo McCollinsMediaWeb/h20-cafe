@@ -163,11 +163,29 @@ $(this).toggleClass('active').next().slideDown();
          }
      });
 
-$("a.scrolltop[href^='#']").on('click', function(e) {
-   e.preventDefault();
-   var hash = this.hash;
-   $('html, body').stop().animate({scrollTop:0}, 1000, 'easeOutExpo');
+     $("a[href^='#']").on("click", function (e) {
+        e.preventDefault();
 
-});
+        var target = $(this.getAttribute("href"));
+        var headerHeight = $("header").outerHeight() || 0; // Get header height, default to 0 if not found
+
+        if (target.length) {
+            $("html, body").animate(
+                {
+                    scrollTop: target.offset().top - headerHeight,
+                },
+                800
+            );
+        }
+
+        // Remove .current-menu-item from all li elements
+        $("li").removeClass("current-menu-item");
+        $(".home").removeClass("has-active-menu");
+        $(".menu-mask").removeClass("is-active");
+        $(".mobile-menu-holder").removeClass("is-active");
+
+        // Add .current-menu-item to the parent <li> of the clicked <a>
+        $(this).closest("li").addClass("current-menu-item");
+    });
   
 })(jQuery);

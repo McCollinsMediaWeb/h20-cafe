@@ -40,23 +40,23 @@ https://matchthemes.com
 */
 
 :root {  
-	--body-font: Work Sans, sans-serif;
+	--body-font: "Montserrat", sans-serif;
 	--body-color: #252525;
 	--body-background: #ffffff;   
 	--body-font-size: 16px;   
 	--body-line-height: 1.5;
 	--headings-font: Lora, serif;
 	--headings-color: #252525; 
-	--primary-color: #2d5bb2;
+	--primary-color: #3554a4;
 	--extra-color1: #E1EDF0;
 	--extra-color2: #19303E;
 	--menu-normal-color: #ffffff;
-	--menu-hover-color: #2d5bb2;
-	--submenu-background-color: #2d5bb2;
+	--menu-hover-color: #3554a4;
+	--submenu-background-color: #3554a4;
 	--submenu-normal-color: #252525;	
 	--submenu-hover-color: #ffffff;
-	--footer-background-color: #000000;
-	--footer-color: #999999;
+	--footer-background-color: #3554a4;
+	--footer-color: #fff;
 	--footer-title-color: #ffffff;
 	--headings-h1-size: 54px;
 	--headings-h2-size: 48px;
@@ -340,7 +340,7 @@ text-transform:uppercase;
 }
 .menu-nav li:first-child{margin-left:0px;}
 
-.menu-nav li a{color:var(--menu-normal-color);
+.menu-nav li a{color:#252525;
 padding:24px 0;
 display:block;}
 .menu-nav li a:before{position: absolute;
@@ -439,7 +439,7 @@ vertical-align:middle;
 .icon-bar, .icon-bar1, .icon-bar2{display: block;
     height: 2px;
     width: 25px;
-	background:#ffffff;
+	background:#252525;
 	margin-left:auto;
 	margin-right:auto;
 	position:relative;
@@ -448,7 +448,7 @@ vertical-align:middle;
 .icon-bar1, .icon-bar2{width:18px;}
 
 .icon-bar:before, .icon-bar:after  {
-   background:#ffffff;
+   background:#252525;
     content: "";
     height: 100%;
     left: 4px;
@@ -792,7 +792,7 @@ flex: 1 1 0;}
     right: 0;
     left: 0;
     z-index: 1030;
-	background: #252525;
+	background: #fff;
 	margin-top: 0;
 }
 
@@ -817,7 +817,7 @@ margin-left:12px;}
 .social-media li:first-child, .footer-social li:first-child{margin-left:0;}
 
 .social-media1 li a {
-    color: #fff;
+    color: #252525;
 }
 
 .social-black li a {
@@ -2208,9 +2208,9 @@ background:var(--primary-color);
 cursor:pointer;
 }
 
-.view-more:hover, #submit:hover, #submit-contact:hover{color:var(--primary-color);
-border:2px solid;
-background:none;
+.view-more:hover, #submit:hover, #submit-contact:hover{color:#fff;
+border:2px solid var(--primary-color);
+background:var(--primary-color);
 }
 
 .white-btn{background:none;
@@ -2222,12 +2222,12 @@ color:#ffffff;
 	background:#ffffff;}
 
 .btn-header	.view-more{color:var(--headings-color);
-background:#ffffff;
-border-color:#ffffff;
+background:var(--primary-color);
+border-color:var(--primary-color);
 margin-top:0;}
-.btn-header	.view-more:hover{background:none;
-border-color:#ffffff;
-color:#ffffff;}
+.btn-header	.view-more:hover{background:#fff;
+border-color:var(--primary-color);
+color:var(--primary-color);}
 
 .slider-btn{font-size: 13px;
     letter-spacing: 0.15em;
