@@ -2175,7 +2175,7 @@ padding-right:15px;}
 /* comments + contact fields */
 .comm-field, .contact-field, #msg-contact {width:100%;
 padding:16px;
-border:none;
+border: 1px solid #e4e4e4;
 background: #f2f2f2;
 margin-bottom:8px;
 }
@@ -2221,7 +2221,7 @@ color:#ffffff;
 	border:2px solid #ffffff;
 	background:#ffffff;}
 
-.btn-header	.view-more{color:var(--headings-color);
+.btn-header	.view-more{color:#fff;
 background:var(--primary-color);
 border-color:var(--primary-color);
 margin-top:0;}
