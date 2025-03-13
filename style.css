@@ -3153,7 +3153,8 @@ margin-left:0;margin-top:8px;}
 .logo img {
   width: 100px;
 }
-.social-btn-top1 {
+.social-btn-top1 ,
+.header-1 .nav-button-holder{
   flex: 1 1 auto;
 }
  }
