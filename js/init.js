@@ -164,7 +164,7 @@ $(this).toggleClass('active').next().slideDown();
      });
 
      $(".menu-item a , .btn-header a , a.view-more, .slider-btn").on("click", function (e) {
-        e.preventDefault();
+       
 
         var target = $(this.getAttribute("href"));
         var headerHeight = $("header").outerHeight() || 0; // Get header height, default to 0 if not found
